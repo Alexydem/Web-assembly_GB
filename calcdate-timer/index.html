@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datetime superapp</title>
+    <link rel="stylesheet" href="./src/css.css">
+    <script src="./src/main.js" type="module"></script>
+</head>
+
+<body>
+
+    <div class="switcher">
+        <button class="buttonL" type="button">DATE CALC</button>
+        <button class="buttonR" type="button">TIMER</button>
+    </div>
+
+    <!-- this -->
+    <!-- this -->
+    <!-- this -->
+    <!-- this -->
+    <div class="dateCalc" style="display: block;">
+        <form id="datecalc">
+            <h1>DATE CALC</h1>
+            <label>
+                <strong>Первая дата:</strong>
+                <input type="date" name="firstDate" />
+            </label>
+            <label>
+                <strong>Вторая дата:</strong>
+                <input type="date" name="secondDate" />
+            </label>
+            <button type="submit">Расчитать промежуток</button>
+            <p id="datecalc__result"></p>
+    </div>
+    </form>
+
+    <!-- this -->
+    <!-- this -->
+    <!-- this -->
+    <!-- this -->
+    <div class="timer" style="display: none;">
+        <h1>TIMER</h1>
+        <input id="time" type="text" name="time" placeholder="00:00" value="02:00">
+        <button id="button">Запустить</button>
+        <button id="stopButton">Стоп</button>
+        <div id="timer"></div>
+        <img class="pic" src="files/img1.jpg" alt="hi" style="display: none;">
+    </div>
+
+
+
+</body>
+
+</html>

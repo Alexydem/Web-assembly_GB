@@ -1,0 +1,15 @@
+#timer {
+    font-size: 32px;
+
+}
+
+.buttonL {
+    border-width: 2px;
+    background: red;
+}
+
+.buttonR {
+    border-width: 2px;
+    background: white;
+
+}
